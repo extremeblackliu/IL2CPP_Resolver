@@ -27,6 +27,7 @@
 #define IL2CPP_THREAD_ATTACH_EXPORT						"il2cpp_thread_attach"
 #define IL2CPP_THREAD_DETACH_EXPORT						"il2cpp_thread_detach"
 #define IL2CPP_TYPE_GET_OBJECT_EXPORT					"il2cpp_type_get_object"
+#define IL2CPP_OBJECT_NEW								"il2cpp_object_new"
 
 // Calling Convention
 
