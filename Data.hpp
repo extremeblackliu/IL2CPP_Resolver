@@ -25,6 +25,7 @@ namespace IL2CPP
 			void* m_pThreadAttach = nullptr;
 			void* m_pThreadDetach = nullptr;
 			void* m_pTypeGetObject = nullptr;
+			void* m_pObjectNew = nullptr;
 		};
 		SFunctions Functions;
 	};
