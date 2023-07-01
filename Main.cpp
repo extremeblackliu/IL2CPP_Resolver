@@ -99,6 +99,7 @@ namespace IL2CPP
 				{ IL2CPP_THREAD_ATTACH_EXPORT,					&Data.Functions.m_pThreadAttach },
 				{ IL2CPP_THREAD_DETACH_EXPORT,					&Data.Functions.m_pThreadDetach },
 				{ IL2CPP_TYPE_GET_OBJECT_EXPORT,				&Data.Functions.m_pTypeGetObject },
+				{ IL2CPP_OBJECT_NEW,							&Data.Functions.m_pObjectNew },
 			};
 
 			for (std::pair<const char*, void**> m_pExport : m_uExports)
