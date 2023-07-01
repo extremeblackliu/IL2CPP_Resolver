@@ -28,6 +28,11 @@ namespace Unity
 	{
 		void Initialize();
 
+		static il2cppObject* New(il2cppClass* m_pClass)
+		{
+			return reinterpret_cast<Unity::il2cppObject*(UNITY_CALLING_CONVENTION)(void*)>(IL2CPP::Data.Functions.m_pObjectNew)(m_pClass);
+		}
+		
 		template<typename T>
 		static il2cppArray<T*>* FindObjectsOfType(il2cppObject* m_pSystemType)
 		{
